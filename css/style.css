@@ -694,9 +694,9 @@ figure {
   }
 
   ul.timeline>li>.timeline-panel {
-    width: calc(100% - 200px);
     width: -moz-calc(100% - 200px);
     width: -webkit-calc(100% - 200px);
+    width: calc(100% - 200px);
   }
 
   ul.timeline>li>.timeline-badge {
@@ -1081,9 +1081,9 @@ figure {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
   width: 100%;
   float: left;
 }
@@ -1113,9 +1113,9 @@ figure {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 768px) {
