@@ -6,6 +6,9 @@ const App = () => {
     <div className='container mx-auto max-w-7xl'>
       <Navbar />
       <Hero />
+      <section className='h-screen'></section>
+      <section className='h-screen'></section>
+      <section className='h-screen'></section>
     </div>
   )
 }
